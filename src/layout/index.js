@@ -1,7 +1,11 @@
-import Navbar from '../components/Navbar/navbar'
+import { ICONS } from '../components/List/list'
+import '../index.css'
+// import Navbar from '../components/Navbar/navbar'
+import Calculator from '../components/Calculator/calculator'
+
 const Layout = () => {
   return <div>
-<Navbar />
+{ICONS.map((icon) => <Calculator image= {icon.img} key= {icon.id} />)}
 
     </div>
 }
