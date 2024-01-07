@@ -4,14 +4,34 @@
   font-weight: normal;
   font-style: normal;
 }
-
-
-  
-
 body {
     padding: 0;
     margin:0;
     box-sizing: border-box;
     font-family: 'Helvetica Normal', sans-serif;
    
+}
+.primary-container{
+  display: flex;
+  background-color: #FFFFFF;
+}
+.container-primary-title {
+  display: flex;
+  justify-content: center;
+  background-color: #273BE2;
+}
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFFFF;
+  line-height: 24px;
+}
+.primary-calculatro-container{
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  padding: 0;
+
 }

@@ -1,8 +1,14 @@
+// import Input from '@mui/joy/Input'
+import Input from '../Input/input'
+import './calculator.css'
+
 const Calculator = ({ image }) => {
   return (
-    <div>
+    <div className='calculator-container'>
+
       <img src={image} alt="Device" />
-      {/* Aquí puedes agregar tu componente Input si lo necesitas */}
+      <Input />
+
     </div>
   )
 }
