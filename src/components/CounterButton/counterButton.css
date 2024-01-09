@@ -1,0 +1,20 @@
+
+.counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 13px;
+  }
+  
+  .decrement-button,
+  .increment-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 13px;
+    
+  }
+
+  

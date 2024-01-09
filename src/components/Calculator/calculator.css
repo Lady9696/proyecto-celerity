@@ -6,9 +6,14 @@
 
 .calculator-container{
     display: flex;
+   
+    
   
 
 }
 .input-calculator {
     background-color: aqua;
+}
+.button-container{
+    background-color: blueviolet;
 }

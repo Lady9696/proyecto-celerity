@@ -11,12 +11,20 @@ body {
     font-family: 'Helvetica Normal', sans-serif;
    
 }
-.primary-container{
+.container-uno{
   display: flex;
-  background-color: #FFFFFF;
+  background-color: red;
+  
+ 
+}
+.first-container{
+  display: flex;
+flex-direction: column;
+background-color: antiquewhite;
 }
 .container-primary-title {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background-color: #273BE2;
 }
@@ -29,9 +37,15 @@ h2 {
 .primary-calculatro-container{
   display: flex;
   justify-content: center;
-  background-color: yellow;
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
-  padding: 0;
+ 
 
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+  
+}
+.container-title{
+  display: flex;
+  justify-content: center;
 }

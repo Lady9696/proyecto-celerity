@@ -1,0 +1,19 @@
+.select-container {
+  justify-content: center;
+    display: flex;
+  }
+  
+  .select-container select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* otros estilos para tu select, como padding, bordes, etc. */
+  }
+  .select-component{
+    border-style: none;
+  }
+  .rotate {
+    transform: rotate(180deg);
+  }
+  
+  

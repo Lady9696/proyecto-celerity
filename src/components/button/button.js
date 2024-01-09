@@ -1,5 +1,6 @@
+import './button.css'
 const Button = ({ text }) => {
-  return <button>{text}
+  return <button className='primary-button'>{text}
 
   </button>
 }
