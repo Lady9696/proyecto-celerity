@@ -21,6 +21,8 @@ body {
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   background-color: antiquewhite;
+  justify-content: center;
+  align-items: center;
   
   
 }
@@ -49,7 +51,6 @@ h2 {
 .primary-calculatro-container,.icon-container
 {
   display: flex;
-  justify-content: space-around;
   align-items: center;
  
 
@@ -59,14 +60,14 @@ h2 {
  display: flex;
  justify-content: center;
  justify-content: space-around;
- gap:10px;
  padding-top: 14px;
  padding-bottom: 20px;
+ gap: 8px;
 }
 .button-container{
   display: flex;
   justify-content: center;
-  gap: 30px;
+  justify-content: space-between;
   padding-top: 21px;
   padding-bottom: 15px;
   
@@ -90,9 +91,9 @@ h2 {
 }
 .icon-container{
   display: flex;
-  gap:40px;
   padding-top: 24px;
   padding-bottom: 20px;
+  justify-content: space-around;
  
 }
 .icon-device{
