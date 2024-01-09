@@ -9,18 +9,29 @@
   box-sizing: border-box;
   font-family: 'Helvetica Normal', sans-serif;
 }
+body {
+  font-family: 'Helvetica Normal', sans-serif;
+  font-size: 15px;
+}
 
 .container-uno{
+  min-width: 360px;
   display: flex;
   flex-direction: column;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: antiquewhite;
+  
   
 }
 
 .container-primary-title {
  display: flex;
+ min-width: 360px;
  background-color: #273BE2;
  justify-content: center;
  padding: 6px  8px;
+
 }
 h2 {
   font-size: 18px;
@@ -72,8 +83,10 @@ h2 {
 
 .second-section-container{
   display: flex;
+  min-width: 360px;
   flex-direction: column;
   padding: 22px 0;
+  
 }
 .icon-container{
   display: flex;
@@ -106,6 +119,7 @@ filter: none;
 }
 .third-section-container{
   display: flex;
+  min-width: 360px;
   justify-content: center;
   align-items: center;
 }

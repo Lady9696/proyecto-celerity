@@ -11,16 +11,41 @@
     /* otros estilos para tu select, como padding, bordes, etc. */
   }
   .select-component{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     border-style: none;
     font-size: 14px;
     line-height: 16px;
+    text-align-last: center;
   }
- 
+  .select-component option {
+    background-color: red; /* Solo para demostración, el color de fondo no siempre se aplica */
+    margin-top: 5px;/* Añade un espaciado vertical, pero el soporte varía */
+    font-family: 'Helvetica Normal', sans-serif; 
+    font-size: 13px;
+    line-height: 16px;
+    /* Define la familia de fuentes */
+  }
+
+  .select-component:hover {
+    outline: none;
+}
+.select-component:focus{
+    outline: none;
+}
+.select-component option {
+  font-family: inherit;
+  font-size: inherit;
+}
   .options {
     font-family: 'Helvetica Normal', sans-serif;
+    
+    line-height: 16px;
   }
   .rotate {
     transform: rotate(180deg);
   }
+  
   
   
