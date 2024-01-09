@@ -2,9 +2,8 @@
 
 .calculator-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
    align-items: center;
-   
-   gap:10px;
+   gap:8px;
    
 }
