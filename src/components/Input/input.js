@@ -1,6 +1,7 @@
+import './input.css'
 const Input = () => {
   return <>
-  <input type="number" />
+  <input className='input-meters' type="text" />
   </>
 }
 export default Input

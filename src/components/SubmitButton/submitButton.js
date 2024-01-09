@@ -1,4 +1,5 @@
+import './submitButton.css'
 const SubmitButton = () => {
-  return <button>Enviar</button>
+  return <button className='button-send'>Enviar</button>
 }
 export default SubmitButton

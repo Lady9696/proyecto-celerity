@@ -13,10 +13,10 @@ const TabLink = () => {
   return (
       <div className='select-container' onClick={handleSelectClick}>
         <select className='select-component'>
-          <option value="someOption">Metros</option>
-          <option value="otherOption">70m2</option>
-          <option value="otherOption">150m2</option>
-          <option value="otherOption">200m2</option>
+          <option className='options' value="someOption">Metros</option>
+          <option className='options' value="otherOption">70m2</option>
+          <option className='options' value="otherOption">150m2</option>
+          <option className='options' value="otherOption">200m2</option>
         </select>
         <img
           className={`arrow-icon ${activeArrow ? 'rotate' : ''}`}

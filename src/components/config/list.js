@@ -30,13 +30,14 @@ export const ICONS_MEDIA = [
     id: 3,
     img: 'social-media.svg'
   },
+
   {
     id: 4,
-    img: 'web.svg'
+    img: 'letter.svg'
   },
   {
     id: 5,
-    img: 'letter.svg'
+    img: 'web.svg'
   }
 
 ]

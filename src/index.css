@@ -4,48 +4,105 @@
   font-weight: normal;
   font-style: normal;
 }
-body {
-    padding: 0;
-    margin:0;
-    box-sizing: border-box;
-    font-family: 'Helvetica Normal', sans-serif;
-   
+* { padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Normal', sans-serif;
 }
+
 .container-uno{
   display: flex;
-  background-color: red;
+  flex-direction: column;
+ 
+ 
   
  
 }
-.first-container{
-  display: flex;
-flex-direction: column;
-background-color: antiquewhite;
-}
+
 .container-primary-title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #273BE2;
+ display: flex;
+ background-color: #273BE2;
+ justify-content: center;
+ padding: 6px  8px;
 }
 h2 {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   color: #FFFFFF;
+  text-align: center;
   line-height: 24px;
+  
 }
-.primary-calculatro-container{
+.subtitle {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.primary-calculatro-container,.icon-container
+{
   display: flex;
   justify-content: center;
+  align-items: center;
  
 
+}
+.primary-calculatro-container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap:10px;
 }
 .button-container{
   display: flex;
   justify-content: center;
+  gap: 30px;
   
 }
 .container-title{
   display: flex;
   justify-content: center;
+  padding:15px 0 ;
+}
+.container-title-meter{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 22px;
+}
+
+.second-section-container{
+  display: flex;
+  flex-direction: column;
+  padding: 22px 0;
+}
+.icon-container{
+  display: flex;
+  gap:40px;
+  padding-bottom: 20px;
+ 
+}
+.icon-device{
+  filter: opacity(50%);
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+.icon-device:hover{  
+filter: none;
+}
+.container-metros{
+  display: flex;
+  justify-content: center;
+  gap:80px;
+}
+.container-buttons-count{ 
+  padding-bottom: 14px;
+  padding-top:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:40px;
+}
+.third-section-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

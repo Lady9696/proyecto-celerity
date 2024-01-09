@@ -11,29 +11,29 @@ const Layout = () => {
   return <>
   <div className='container-primary-title'><h2>ENCUENTRA TU PLAN IDEAL</h2></div>
   <div className='container-uno'>
-    <div className='first-container' >
  <div className='button-container'>
  <Button text='Casa o Depart'/>
  <Button text='Oficina'/>
  <Button text='Partner'/>
  </div>
- <div className='container-title'><span>¿Cuántos dispositivos tienes en casa?</span></div>
+ <div className='container-title'><span className='subtitle'>¿Cuántos dispositivos tienes en casa?</span></div>
  <div className='primary-calculatro-container'>
 {ICONS.map((icon) => <Calculator image= {icon.img} key= {icon.id} />)}
 </div>
-</div>
+
 <div className='second-section-container'>
-<div className='container-title'><span>¿En qué utilizas más el internet?</span></div>
-<div className='primary-calculatro-container'>
-{ICONS_MEDIA.map((icon) => <img src={icon.img} key= {icon.id} />)}
+<div className='container-title-meter'><span className='subtitle'>¿En qué utilizas más el internet?</span></div>
+<div className='icon-container'>
+{ICONS_MEDIA.map((icon) => <img className='icon-device' src={icon.img} key= {icon.id} />)}
 </div>
 <div className='container-metros'>
   <TabLink />
   <TabLinkSpace />
 </div>
 <div className='container-buttons-count'>
-<CounterButton label='Pisos' />
 <CounterButton label='Personas' />
+<CounterButton label='Pisos' />
+
 </div>
 </div>
 <div className='third-section-container'>

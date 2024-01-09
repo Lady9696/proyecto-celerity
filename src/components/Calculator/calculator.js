@@ -5,7 +5,6 @@ import './calculator.css'
 const Calculator = ({ image }) => {
   return (
     <div className='calculator-container'>
-
       <img src={image} alt="Device" />
       <Input />
 

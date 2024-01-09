@@ -3,17 +3,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    font-size: 13px;
+    border: 1px solid  #4A64E5;
+    border-radius: 15px;
+    padding: 6px 16px;
+    font-size: 14px;
+    height: auto;
+    color: #262124;
+    gap: 8px;
   }
   
   .decrement-button,
   .increment-button {
+    display: flex;
     border: none;
     background-color: transparent;
     cursor: pointer;
-    font-size: 13px;
+    font-size: 14px;
+    color: #7A8CFF;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     
   }
 

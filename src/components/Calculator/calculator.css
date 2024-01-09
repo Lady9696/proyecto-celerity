@@ -1,19 +1,10 @@
-.primary-container {
-    display: flex;
-    background-color: #FFFFFF;
-    flex-direction: column;
-}
+
 
 .calculator-container{
     display: flex;
+    justify-content: center;
+   align-items: center;
    
-    
-  
-
-}
-.input-calculator {
-    background-color: aqua;
-}
-.button-container{
-    background-color: blueviolet;
+   gap:10px;
+   
 }
