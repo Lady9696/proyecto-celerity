@@ -105,8 +105,8 @@ filter: none;
 }
 .container-metros{
   display: flex;
-  justify-content: center;
-  gap:80px;
+  justify-content: space-around;
+ 
 }
 .container-buttons-count{ 
  
@@ -115,7 +115,7 @@ filter: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:40px;
+  justify-content: space-around;
 }
 .third-section-container{
   display: flex;
