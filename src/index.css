@@ -49,7 +49,7 @@ h2 {
 .primary-calculatro-container,.icon-container
 {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
  
 
@@ -58,7 +58,7 @@ h2 {
 .primary-calculatro-container{
  display: flex;
  justify-content: center;
- align-items: center;
+ justify-content: space-around;
  gap:10px;
  padding-top: 14px;
  padding-bottom: 20px;
