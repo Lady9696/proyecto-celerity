@@ -13,10 +13,7 @@
 .container-uno{
   display: flex;
   flex-direction: column;
- 
- 
   
- 
 }
 
 .container-primary-title {
@@ -46,27 +43,31 @@ h2 {
  
 
 }
+
 .primary-calculatro-container{
  display: flex;
  justify-content: center;
  align-items: center;
  gap:10px;
+ padding-top: 14px;
+ padding-bottom: 20px;
 }
 .button-container{
   display: flex;
   justify-content: center;
   gap: 30px;
+  padding-top: 21px;
+  padding-bottom: 15px;
   
 }
 .container-title{
   display: flex;
   justify-content: center;
-  padding:15px 0 ;
+  
 }
 .container-title-meter{
   display: flex;
   justify-content: center;
-  padding-bottom: 22px;
 }
 
 .second-section-container{
@@ -77,6 +78,7 @@ h2 {
 .icon-container{
   display: flex;
   gap:40px;
+  padding-top: 24px;
   padding-bottom: 20px;
  
 }
@@ -94,8 +96,9 @@ filter: none;
   gap:80px;
 }
 .container-buttons-count{ 
-  padding-bottom: 14px;
-  padding-top:40px;
+ 
+  padding-top: 44px;
+  padding-bottom: 48px;
   display: flex;
   justify-content: center;
   align-items: center;
