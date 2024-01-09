@@ -6,7 +6,6 @@ import TabLink from '../components/TabLink/tablink'
 import TabLinkSpace from '../components/TablinkSpace/tablinkSpace'
 import CounterButton from '../components/CounterButton/counterButton'
 import SubmitButton from '../components/SubmitButton/submitButton'
-
 const Layout = () => {
   return <>
   <div className='container-primary-title'><h2>ENCUENTRA TU PLAN IDEAL</h2></div>
