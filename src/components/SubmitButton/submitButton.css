@@ -1,0 +1,14 @@
+.button-send {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #273BE2;
+    color:#FEFDFA;
+    size: 15px;
+    padding: 8px 36px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    
+}

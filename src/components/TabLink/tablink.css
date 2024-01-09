@@ -1,0 +1,26 @@
+.select-container {
+  justify-content: center;
+    display: flex;
+    gap: 6px;
+  }
+  
+  .select-container select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* otros estilos para tu select, como padding, bordes, etc. */
+  }
+  .select-component{
+    border-style: none;
+    font-size: 14px;
+    line-height: 16px;
+  }
+ 
+  .options {
+    font-family: 'Helvetica Normal', sans-serif;
+  }
+  .rotate {
+    transform: rotate(180deg);
+  }
+  
+  

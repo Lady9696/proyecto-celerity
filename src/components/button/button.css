@@ -1,0 +1,32 @@
+.primary-button {
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    font-family: 'Helvetica Normal', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+    color: #252124;
+    padding: 10px;
+    line-height: 20px;
+
+}
+.primary-button:hover{
+    color: #213CE7;
+}
+
+  .primary-button:not(:last-child)::after {
+    content: ''; /* necesario para generar el pseudo-elemento */
+  position: absolute;
+  left: 100%; /* Empieza en el borde derecho del botón */
+  top: 50%; /* Centra verticalmente en relación al botón */
+  transform: translate(7px, -50%); /* Mueve la barra hacia la derecha y la centra verticalmente */
+  height: 1em; /* Altura de la barra, ajusta según necesidad */
+  border-right: 1px solid #000;
+  }
+  .primary-button + .primary-button {
+    margin-left: 0px;
+     /* Doble del espacio deseado porque el pseudo-elemento está posicionado fuera del botón */
+  }
