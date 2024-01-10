@@ -18,6 +18,7 @@
     font-size: 14px;
     line-height: 16px;
     text-align-last: center;
+    min-width: 130px;
   }
   .select-component option {
     background-color: red; /* Solo para demostración, el color de fondo no siempre se aplica */

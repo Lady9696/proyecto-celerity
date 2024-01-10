@@ -7,17 +7,24 @@ import TabLinkSpace from '../components/TablinkSpace/tablinkSpace'
 import CounterButton from '../components/CounterButton/counterButton'
 import SubmitButton from '../components/SubmitButton/submitButton'
 const Layout = () => {
-  return <>
-  <div className='container-primary-title'><h2>ENCUENTRA TU PLAN IDEAL</h2></div>
-  <div className='container-uno'>
+  return <div className='general'>
+    <h2 className='container-primary-title'>ENCUENTRA TU PLAN IDEAL</h2>
+  <div className='container'>
+
+  <div className='primary-section'>
  <div className='button-container'>
  <Button text='Casa o Depart'/>
+<span></span>
+
  <Button text='Oficina'/>
+<span></span>
  <Button text='Partner'/>
+
  </div>
  <div className='container-title'><span className='subtitle'>¿Cuántos dispositivos tienes en casa?</span></div>
  <div className='primary-calculatro-container'>
 {ICONS.map((icon) => <Calculator image= {icon.img} key= {icon.id} />)}
+</div>
 </div>
 
 <div className='second-section-container'>
@@ -26,19 +33,20 @@ const Layout = () => {
 {ICONS_MEDIA.map((icon) => <img className='icon-device' src={icon.img} key= {icon.id} />)}
 </div>
 <div className='container-metros'>
+  <div className='container-select'>
   <TabLink />
   <TabLinkSpace />
-</div>
-<div className='container-buttons-count'>
-<CounterButton label='Personas' />
+  </div>
+  <CounterButton label='Personas' />
 <CounterButton label='Pisos' />
-
 </div>
+
 </div>
 <div className='third-section-container'>
 <SubmitButton />
 </div>
-    </div>
-    </>
+ </div>
+ </div>
 }
 export default Layout
+/* <div className='container-primary-title'><h2>ENCUENTRA TU PLAN IDEAL</h2></div> */

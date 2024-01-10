@@ -14,10 +14,10 @@ const CounterButton = ({ label }) => {
 
   return (
     <div className="counter-container">
+       <button className="increment-button" onClick={handleIncrement}>+</button>
       <span>{label}</span>
-      <button className="decrement-button" onClick={handleDecrement}>-</button>
       <span className="count-display">{count}</span>
-      <button className="increment-button" onClick={handleIncrement}>+</button>
+      <button className="decrement-button" onClick={handleDecrement}>-</button>
     </div>
   )
 }
