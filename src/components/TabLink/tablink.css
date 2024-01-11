@@ -1,7 +1,7 @@
 .select-container {
   justify-content: center;
     display: flex;
-    gap: 6px;
+
   }
   
   .select-container select {
@@ -21,7 +21,7 @@
     min-width: 130px;
   }
   .select-component option {
-    background-color: red; /* Solo para demostración, el color de fondo no siempre se aplica */
+    background-color: #213CE7; /* Solo para demostración, el color de fondo no siempre se aplica */
     margin-top: 5px;/* Añade un espaciado vertical, pero el soporte varía */
     font-family: 'Helvetica Normal', sans-serif; 
     font-size: 13px;

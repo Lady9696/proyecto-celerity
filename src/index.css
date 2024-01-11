@@ -81,7 +81,7 @@ h2 {
   width: 1px;
   height: 0.9rem;
   display: block;
-  background-color: red;
+  background-color: #273BE2;
   
   
 }
@@ -106,7 +106,7 @@ text-align: left;
 .container-select{
   display: flex;
   justify-content: center;
-  gap:40px;
+  
  
 }
 .icon-device{
@@ -124,6 +124,7 @@ filter: none;
   justify-content: space-evenly;
   gap: 20px;
 }
+
 .container-metros > div.counter-container{
   flex:1;
 }
@@ -176,6 +177,7 @@ filter: none;
   .container {
     display: flex;
     flex-direction: row;
+    padding-inline: 80px;
     
   }
   .primary-section{
@@ -189,14 +191,17 @@ filter: none;
   }
   .container-select{
     width: auto;
-    gap: 20px;
+  
+  
   
   }
   .container{
     gap:40px;
   }
   .container-metros > div.counter-container{
-    max-width:120px;
+    max-width:140px;
+  }
+  .icon-container{
+    gap:40px;
   }
   }
-  
