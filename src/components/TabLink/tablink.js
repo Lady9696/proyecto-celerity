@@ -1,28 +1,16 @@
-import { useState } from 'react'
 import './tablink.css'
-import { FLECHA } from '../config/list'
 const TabLink = () => {
   // Inicializa activeArrow como false
-  const [activeArrow, setActiveArrow] = useState(false)
-
-  // Esta función cambiará el estado de activeArrow entre true y false
-  const handleSelectClick = () => {
-    setActiveArrow(!activeArrow)
-  }
 
   return (
-      <div className='select-container' onClick={handleSelectClick}>
-        <select className='select-component'>
+      <div className='select'>
+        <select className='select-component' id="standard-select">
           <option className='options' value="someOption">Metros</option>
           <option className='options' value="otherOption">70m2</option>
           <option className='options' value="otherOption">150m2</option>
           <option className='options' value="otherOption">200m2</option>
         </select>
-        <img
-          className={`arrow-icon ${activeArrow ? 'rotate' : ''}`}
-          src={FLECHA}
-          alt="Arrow Icon"
-        />
+
       </div>
   )
 }
